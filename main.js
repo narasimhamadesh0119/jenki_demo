@@ -2,7 +2,8 @@ const express = require("express")
 const app = express()
 
 app.get("/",(req,res)=>{
-    res.send("Hello welcome to jenkins")
+    // res.send("Hello welcome to jenkins")
+    res.send("Hello World - deployed automatically using Jenkins Poll SCM")
 
 });
 
